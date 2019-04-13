@@ -44,7 +44,7 @@ $(document).ready(function(){
       var number = document.getElementById('number').value;
       console.log(number)
       if(name === ''){
-        alert("Please Type You Name In To Contact Use");
+        alert("Please Type Your Name In To Contact you");
       }
       else{
         if(email.indexOf('@') == -1 || email.indexOf('.com') === -1){
